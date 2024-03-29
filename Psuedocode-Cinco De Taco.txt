@@ -1,0 +1,50 @@
+﻿Brooklyn Rimes 
+Cinco De Taco
+3/29/2024
+Move the Cart and Catch the Taco
+
+
+Designing the game 
+* Come up with a theme for your game 
+* Decide what sprites you want to use 
+* Create a diagram for your game 
+   * Describing elements
+   * Sprite types 
+   * Target sprites 
+   * Other special effects 
+* Create a scene for your game 
+   * A theme/ background image 
+* Build your sprites 
+   * Create and test sprites 
+   * Make sure sprites function properly 
+   * Add to code 
+   * My sprites:
+      * KeyPressed: keyPressed () function is called once every time a key is pressed
+      * Collision: detects collision between objects 
+* Import pygame, random, and simpleGE
+   * Random: range of randomness 
+   * simpleGE: Game engine my professor created 
+* Intialize a object that will fall from top of screen  → mines was Taco
+* Create a function for screen and background
+* Set initial attributes and load image
+* Use self.() function for:
+   * Setting image 
+   * Setting image size 
+   * Reset 
+* Create a function for reset →  def reset(self)
+   * This Reset an objects position and velocity
+* Create a function that check boundaries 
+   * This checks if object has reached bottom of screen
+      * If object has reach bottom of the screen, object resets to top of screen
+* Intialize an object that will catch falling objects 
+* Set initial attributes and load image
+* Create function that process cart movement based on user input
+   * This is created by a sprite call KeyPressed 
+      * Use right and left arrow keys to move object 
+* Initialize the game scene
+* Set background, load images, and create sprite objects
+   * Sprites listed above
+* Create a Main game loop to handle collisions and play sound
+* Set up the game and start main loop
+   * Set up game caption/ title 
+* Create a statement that checks if the script is being run as the main program
